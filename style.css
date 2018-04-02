@@ -1,0 +1,65 @@
+#grid{
+    height: 420px;
+    width : 440px;
+    background-color:#FFFFFF;
+    border:solid 1.5px #EAEAEA;
+}
+
+#disp_ans{
+  height: 20px;
+  width : 100px;
+  margin-top: 10px;
+  margin-left: 324px;
+  background-color:#FFFFFF;
+  text-align: right;
+}
+
+#display{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 12px;
+  height: 36px;
+  width : 400px;
+  background-color:#FFFFFF;
+  text-align: right;
+  font-size: 2em;
+  text-rendering: optimizeLegibility;
+  border:solid 2.5px #EAEAEA;
+}
+
+#keypad{
+  margin-left: 10px;
+  margin-top:10px;
+  width : 410px;
+  height: 310px;
+  background-color:#FFFFFF;
+  display: grid;
+  grid-template-columns:22.75% 22.75% 22.75% 22.75%;
+  grid-template-rows:14.16% 14.16% 14.16% 14.16% 14.16% 14.16%;
+  grid-gap:3%;
+}
+
+#num0, #num1, #num2, #num3, #num4, #num5, #num6, #num7,#num8, #num9, #reset,
+#del, #div, #into, #add, #sub, #percent, #point, #answer, #lft_brac, #rgt_brac {
+  text-align:center;
+  background-color: #D5D5D5;
+  border: solid 1px #DEDEDE;
+  font-size: 1em;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  height:50px;
+  width:100px;
+}
+
+#equals{
+  background-color: #498BF4;
+  text-align:center;
+  border: solid 1px #DEDEDE;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+  height:156.5px;
+  width:100px;
+  grid-column: 4;
+  grid-row: 4/6;
+
+}
